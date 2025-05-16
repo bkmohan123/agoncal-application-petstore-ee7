@@ -1,15 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: petstore-javaee7
-  description: A sample Petstore application using Java EE 7 by Antonio Goncalves
+  name: petstore-ee7
+  description: Java EE 7 Petstore application
   tags:
-    - javaee7
-    - modernization
+    - java
     - petstore
-    - legacy
 spec:
   type: service
-  lifecycle: experimental
-  owner: guests
-  system: petstore-system
+  lifecycle: production
+  owner: user:guest
